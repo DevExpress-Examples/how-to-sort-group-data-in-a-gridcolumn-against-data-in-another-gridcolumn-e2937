@@ -1,0 +1,20 @@
+﻿<Window x:Class="dxSampleGrid.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        Height="700"
+        Width="1100"
+        SnapsToDevicePixels="True"
+        Title="DXApplication"
+        UseLayoutRounding="True"
+        >
+    <Grid>
+        <dxg:GridControl ItemsSource="{Binding ListPerson}">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="FirstName" SortFieldName="CustomSortNumber" />
+                <dxg:GridColumn FieldName="CustomSortNumber" />
+            </dxg:GridControl.Columns>
+        </dxg:GridControl>
+    </Grid>
+
+</Window>
