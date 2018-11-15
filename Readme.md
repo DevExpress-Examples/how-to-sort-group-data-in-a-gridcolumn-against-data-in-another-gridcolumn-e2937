@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MainWindow.xaml](./CS/dxSampleGrid/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/dxSampleGrid/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/dxSampleGrid/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/dxSampleGrid/MainWindow.xaml))
+* [MyViewModel.cs](./CS/dxSampleGrid/MyViewModel.cs) (VB: [MyViewModel.vb](./VB/dxSampleGrid/MyViewModel.vb))
+* [Person.cs](./CS/dxSampleGrid/Person.cs) (VB: [Person.vb](./VB/dxSampleGrid/Person.vb))
+<!-- default file list end -->
 # How to sort/group data in a GridColumn against data in another GridColumn
 
 
